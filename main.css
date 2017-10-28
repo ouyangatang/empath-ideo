@@ -1,0 +1,54 @@
+#test{
+/*	font-family: helvetica;
+*/    font-family: 'Comfortaa', cursive;
+
+}
+
+.backgroundDiv {
+	position: absolute;
+	width:200px;
+	height: 200px;
+	background-image: url("http://www.ideocolab.com/style/css/img/shapes.gif");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.7;
+}
+.main{
+	width:200px;
+  height:175px;
+	/*background-image: url("http://www.ideocolab.com/style/css/img/shapes.gif");*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.7;
+}
+
+button {
+    background-color: white;
+    border: 1px solid blue;
+    color: blue;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    outline:none;
+
+
+}
+button:hover {
+   box-shadow: 0 2px 3px rgba(0,0,0,0.95);
+	-webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.15);
+	-webkit-transform: translateY(-1px);
+	transform: translateY(-1px);
+	-moz-transform: none;
+}
+body {
+
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+    <title>ME.AI</title>
+    <script src="test.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- <div class="backgroundDiv"></div> -->
+  	<div class = "main">
+	    <h1 id="title">Experience</h1>
+<a >
+	    <button onClick="toggle()" id="test">Toggle</button>
+  </a>
+      <a href="graph.html"><button onClick="persona()" id="test">Persona!</button></a>
+<!--       <button id="sign-in-button">Signin</button>
+ -->
+    </div>
+
+  <script src="https://www.gstatic.com/firebasejs/4.1.5/firebase.js"></script>
+  <script>
+
+function toggle() {
+
+}
+
+function persona() {
+  window.open("graph.html");
+}
+
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyD2AmF3dgmouYmt5tpn-ZPliAzoMtfqYM8",
+        authDomain: "meai-midpoint.firebaseapp.com",
+        databaseURL: "https://meai-midpoint.firebaseio.com",
+        projectId: "meai-midpoint",
+        storageBucket: "meai-midpoint.appspot.com",
+        messagingSenderId: "508290334754"
+    };
+    firebase.initializeApp(config);
+  </script>
+
+
+  </body>
+</html>
